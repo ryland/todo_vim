@@ -12,16 +12,16 @@ Copy the files into your ~/.vim directory. Create a new file with a .todo extens
 
 .todo files follow the following format:
 
-  Work:
-    - finish README @docs
-    - update makefile (joe)
-    - ship it WTF
-    - a completed task @done
-    x another type of completed task
+    Work:
+      - finish README @docs
+      - update makefile (joe)
+      - ship it WTF
+      - a completed task @done
+      x another type of completed task
 
-  Home:
-    - pay bills
-    - groceries (sue)
+    Home:
+      - pay bills
+      - groceries (sue)
 
 
 Find the latest version on [Github](http://github.com/ryland/todo_vim).
