@@ -18,6 +18,7 @@ syn match  todoContext      /@[A-Za-z0-9_]\+/
 syn match  todoDone         /^\s*[-+]\s\+.*@[Dd][Oo][Nn][Ee].*$/
 syn match  todoDoneX        /^\s*x\s\+.*$/ 
 syn match  todoResponsible  /(.\{-})\s*/
+syn match  todoDate         /\d\{1,2}[\/-]\d\{1,2}[\/-]\d\{2,4}/
 
 syn sync fromstart
 
@@ -28,6 +29,7 @@ hi def link todoProject      Title
 hi def link todoDone         NonText
 hi def link todoDoneX        NonText
 hi def link todoPanic        Todo
+hi def link todoDate         Number
 
 let b:current_syntax = "todo"
 

@@ -15,8 +15,9 @@ Copy the files into your ~/.vim directory. Create a new file with a .todo extens
     Work:
       - finish README @docs
       - update makefile (joe)
-      - ship it WTF
+      - ship it by 8/13/09
       - a completed task @done
+      - write docs WTF
       x another type of completed task
 
     Home:
