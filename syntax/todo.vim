@@ -14,7 +14,7 @@ syn keyword todoPanic        TODO FIXME XXX NOTE REFACTOR WTF ??? AI
 
 syn match  todoProject      /^.\+:\s*$/
 syn match  todoItem         /^\s*[-+]\s\+/ 
-syn match  todoContext      /@[A-Za-z0-9_]\+/
+syn match  todoContext      /\s@[A-Za-z0-9_]\+/
 syn match  todoDone         /^\s*[-+]\s\+.*@[Dd][Oo][Nn][Ee].*$/
 syn match  todoDoneX        /^\s*x\s\+.*$/ 
 syn match  todoResponsible  /(.\{-})\s*/
